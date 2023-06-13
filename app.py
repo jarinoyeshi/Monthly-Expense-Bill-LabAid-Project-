@@ -41,7 +41,7 @@ def createApp()-> Flask:
     @app.route('/create/table',methods=['GET'])
     def createDatabase():
         createTable()
-        return {" Database Created "}
+        return {"Message" : "Database created "}
     return app
 
 
