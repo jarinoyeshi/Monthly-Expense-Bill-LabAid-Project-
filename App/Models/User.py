@@ -2,7 +2,7 @@
 
 from sqlalchemy import Column, Integer, String 
 from .BaseModel import BaseModel
-from  ..Database import Base
+from  App.Database import Base
 from marshmallow import Schema,fields
 
 

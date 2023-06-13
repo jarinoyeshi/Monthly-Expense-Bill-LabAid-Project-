@@ -24,7 +24,7 @@ def createTable():
     from .Models.User import User
     Base.metadata.create_all(bind=engine)
     
-    # from .Repositories.UserRepository import UserRepository
-    # newUser = User("Jarin","123456")
-    # UserRepository().save(newUser)
+    from .Repositories.UserRepository import UserRepository
+    newUser = User("Jarin","123456")
+    UserRepository().save(newUser)
     

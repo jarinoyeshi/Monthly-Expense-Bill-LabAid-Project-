@@ -1,4 +1,4 @@
 
 
 from .BaseModel import BaseModel
-from .User import User
+from .User import User,UserSchema
